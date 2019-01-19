@@ -1,0 +1,113 @@
+*
+{
+	padding: 0;
+}
+body
+{
+	background-color: white;
+
+}
+h1
+{
+	font-size: 275%;
+}
+.Header
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 570px;
+	width: 350px
+	background-color:grey;
+}
+.Header > .paragraf 
+{
+	color:grey;
+	font-size: 191%;
+}
+.menu > div > ul > li 
+{
+	display: inline-block;
+	padding: 10px 20px;
+	border-bottom: 5px solid;
+	width: 70px;
+	border-radius: 15px;
+	font-family: Calibri;
+	font-weight: bold;
+
+}
+#L1
+{
+	background-color: #d6cdcd;
+}
+
+@media(min-width: 650px)
+{
+.conteiner-1, .conteiner-2, .conteiner-3
+{
+	display: flex;
+	align-items: stretch;
+	flex-direction: row;
+	padding: 0;
+}
+}
+.love > p
+{
+	font-family: Calibri;
+	font-weight: bold;
+	color: grey;
+	font-size: 215%;
+	text-align: center;
+}
+.authors
+{
+	background-color: #FAFAF0;
+}
+#A0
+{
+	font-family: Calibri;
+	font-weight: bold;
+	color: grey;
+	font-size: 215%;
+	text-align: center;	
+}
+#A1
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 158px;
+	width: 420px;
+	font-family: Italic;
+	font-weight: bold;
+	color: grey;
+	font-size: 175%;
+	text-align: center;
+
+}
+.menstack
+{
+	width: 95px;
+	height: 95px;
+	border-radius: 360px;
+	filter: grayscale(100%);
+}
+
+.menstack1
+{
+	font-family: Calibri;	
+}
+.odi
+{
+	font-family: Calibri;
+}
+
+
+
+
+
+
+
+
